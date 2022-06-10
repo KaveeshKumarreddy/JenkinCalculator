@@ -14,3 +14,17 @@ public class App
         System.out.println("subtracting 20 and 10 will give :"+cal.sub(40, 10));
     }
 }
+
+
+class Calculator {
+	
+	public int add(int a, int b)
+	{
+		return a+b;
+	}
+	
+	public int sub(int a, int b)
+	{
+		return a-b;
+	}
+}
